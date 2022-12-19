@@ -15,9 +15,12 @@
     "react-redux": "^8.0.5",
     "react-router": "^6.4.4",
     "react-router-dom": "^6.4.4",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "unplugin-icons": "^0.14.15"
   },
   "devDependencies": {
+    "@iconify/react": "^4.0.1",
+    "@svgr/core": "^6.5.1",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",

@@ -1,6 +1,11 @@
 import slide1 from "../assets/slideImg1.png";
-import arrow from "../assets/Icons/arrow.svg";
+import Ellipse from "../assets/Icons/Ellipse.svg";
+import Left from "../assets/Icons/Left.svg";
+import Right from "../assets/Icons/Right.svg";
+
 import { Link } from "react-router-dom";
+
+import { Icon } from '@iconify/react';
 
 const Upcoming = () => {
   return (
@@ -49,20 +54,45 @@ const Upcoming = () => {
                   </Link>
                   
                 </div>
+                
+                <div className=" md:flex">
+                  <div
+                  className=" hidden md:flex md:relative absolute  cursor-pointer"
+                  >
+                    <img width="50rem"  src={Ellipse} />
+                    <img
+                      width="30rem"
+                      className="absolute left-1 top-[6px] "
+                      src={Right}
+                    />
+                  </div>
+                  <div
+                  className=" hidden md:flex md:relative absolute  cursor-pointer"
+                  >
+                    <img width="50rem"  src={Ellipse} />
+                    <img
+                      width="30rem"
+                      className="absolute left-2 top-[6px] "
+                      src={Left}
+                    />
+                  </div>
+                  
+                </div>
+              
               </div>
             </div>
           </div>
         </div>
       </section>
       <section className="w-full my-14">
-        <div className="px-4 md:px-10 cursor-pointer hover:px-16 duration-500 py-6 border border-transparent border-t-black border-b-black flex justify-between">
+        <Link to={'/marketplace'} className="px-4 md:px-10 cursor-pointer hover:px-16 duration-500 py-6 border border-transparent border-t-black border-b-black flex justify-between">
           <h2 className="text-2xl font-satoshi font-medium ">Explore marketplace</h2>
-          <img  src={arrow} />
-        </div>
-        <div className="px-4 md:px-10 cursor-pointer hover:px-16 duration-500 py-6 border border-transparent border-b-black flex justify-between">
-          <h2 className="text-2xl font-satoshi font-medium">Explore marketplace</h2>
-          <img src={arrow} />
-        </div>
+          <Icon className=" w-24 h-12 text-[#4693ED]" icon="material-symbols:arrow-right-alt-rounded" />
+        </Link>
+        <Link to={'/auction'} className="px-4 md:px-10 cursor-pointer hover:px-16 duration-500 py-6 border border-transparent border-b-black flex justify-between">
+          <h2 className="text-2xl font-satoshi font-medium">See auctions</h2>
+          <Icon className=" w-24 h-12 text-[#4693ED]" icon="material-symbols:arrow-right-alt-rounded" />
+        </Link>
       </section>
     </>
   );

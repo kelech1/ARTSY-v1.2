@@ -9,6 +9,8 @@ import user5 from "../assets/user5.png";
 import smallcircle from "../assets/Icons/smallcircle.svg";
 import arrow from "../assets/Icons/arrow.svg";
 
+import { Icon } from '@iconify/react';
+
 const Featured = () => {
   return (
     <section className="md:px-14 px-2 mt-14 relative z-[100]">
@@ -28,12 +30,7 @@ const Featured = () => {
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <img width="50rem" className="md:fill-white" src={smallcircle} />
-              <img
-                width="30rem"
-                className="absolute md:fill-white left-2 top-4 "
-                src={arrow}
-              />
+              <Icon className=" w-16 h-16 text-[#ffffff]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -43,7 +40,7 @@ const Featured = () => {
               The Boolean Egyptian
             </h3>
           </div>
-          <p className="text-left max-w-sm">
+          <p className="text-left max-w-sm font-satoshi font-normal">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur dolore reiciendis quibusdam architecto voluptates sed
             obcaecati veritatis ipsam quo incidunt
@@ -56,17 +53,12 @@ const Featured = () => {
               <img className="-ml-4" src={user4} />
               <img className="-ml-4" src={user5} />
             </div>
-            <div className='px-2 w-[10rem]'><h4 className=''>64 major creators</h4></div>
+            <div className='px-2 w-[10rem] font-satoshi font-medium'><h4 className=''>64 major creators</h4></div>
             <div
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <img width="50rem" className="md:fill-white" src={smallcircle} />
-              <img
-                width="30rem"
-                className="absolute md:fill-white left-2 top-4 "
-                src={arrow}
-              />
+              <Icon className=" w-16 h-16 text-[#333333]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -86,12 +78,7 @@ const Featured = () => {
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <img width="50rem" className="md:fill-white" src={smallcircle} />
-              <img
-                width="30rem"
-                className="absolute md:fill-white left-2 top-4 "
-                src={arrow}
-              />
+              <Icon className=" w-16 h-16 text-[#ffffff]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -101,7 +88,7 @@ const Featured = () => {
               The Boolean Egyptian
             </h3>
           </div>
-          <p className="text-left max-w-sm">
+          <p className="text-left max-w-sm font-satoshi font-normal">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur dolore reiciendis quibusdam architecto voluptates sed
             obcaecati veritatis ipsam quo incidunt
@@ -114,17 +101,12 @@ const Featured = () => {
               <img className="-ml-4" src={user4} />
               <img className="-ml-4" src={user5} />
             </div>
-            <div className='px-2 w-[10rem]'><h4 className=''>64 major creators</h4></div>
+            <div className='px-2 w-[10rem] font-satoshi font-medium'><h4 className=''>64 major creators</h4></div>
             <div
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <img width="50rem" className="md:fill-white" src={smallcircle} />
-              <img
-                width="30rem"
-                className="absolute md:fill-white left-2 top-4 "
-                src={arrow}
-              />
+              <Icon className=" w-16 h-16 text-[#333333]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -144,12 +126,7 @@ const Featured = () => {
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <img width="50rem" className="md:fill-white" src={smallcircle} />
-              <img
-                width="30rem"
-                className="absolute md:fill-white left-2 top-4 "
-                src={arrow}
-              />
+              <Icon className=" w-16 h-16 text-[#ffffff]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -159,7 +136,7 @@ const Featured = () => {
               The Boolean Egyptian
             </h3>
           </div>
-          <p className="text-left max-w-sm">
+          <p className="text-left max-w-sm font-satoshi font-normal">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur dolore reiciendis quibusdam architecto voluptates sed
             obcaecati veritatis ipsam quo incidunt
@@ -172,17 +149,12 @@ const Featured = () => {
               <img className="-ml-4" src={user4} />
               <img className="-ml-4" src={user5} />
             </div>
-            <div className='px-2 w-[10rem]'><h4 className=''>64 major creators</h4></div>
+            <div className='px-2 w-[10rem] font-satoshi font-medium'><h4 className=''>64 major creators</h4></div>
             <div
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <img width="50rem" className="md:fill-white" src={smallcircle} />
-              <img
-                width="30rem"
-                className="absolute md:fill-white left-2 top-4 "
-                src={arrow}
-              />
+             <Icon className=" w-16 h-16 text-[#333333]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
