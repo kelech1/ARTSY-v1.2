@@ -28,25 +28,25 @@ const Header = () => {
           {/* Nav container */}
           <ul className="hidden md:flex space-x-8 font-satoshi">
             <li>
-              <Link to={'/'} className="relative group focus:underline">
-                <span className="bg-[#333333] h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
+              <Link to={'/'} className="relative group ">
+                <span className="bg-[#333333] h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0  " />
                 Home
               </Link>
             </li>
             <li>
-              <Link to={'/marketplace'} className="relative group focus:underline">
+              <Link to={'/marketplace'} className="relative group ">
                 <span className="bg-[#333333] h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
                 Marketplace
               </Link>
             </li>
             <li>
-              <Link to={'/auction'} className="relative group focus:underline">
+              <Link to={'/auction'} className="relative group ">
                 <span className="bg-[#333333] h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
                 Auction
               </Link>
             </li>
             <li>
-              <Link to={'/drops'} className="relative group focus:underline">
+              <Link to={'/drops'} className="relative group ">
                 <span className="bg-[#333333] h-[0.1px] w-0 group-hover:w-full duration-500 absolute bottom-0" />
                 Drops
               </Link>

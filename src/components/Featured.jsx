@@ -77,8 +77,23 @@ const Featured = () => {
         md:border-t md:border-black md:flex-row-reverse 
              justify-center md:py-10 pt-1 pb-4 px-4 my-8 md:my-0 relative"
       >
-        <div className="w-full md:w-1/2">
-          <img className="relative" src={img2} />
+        <div className="group w-full md:w-[610px] relative">
+          <img className=" md:pr-4" src={img2} />
+
+          <div class="hidden absolute top-0 left-0 md:flex h-0 w-[595px] items-center justify-center  bg-black opacity-0  group-hover:h-full group-hover:opacity-50 group-hover:ease-out group-hover:transition-opacity group-hover:delay-200 group-hover:duration-300">
+            <h1 class="text-2xl text-white p-5">View product</h1>
+            <div
+              className="flex md:relative absolute top-[30%] md:left-10 
+            md:-top-1 right-10 cursor-pointer"
+            >
+              <img width="50rem" className="md:fill-white" src={smallcircle} />
+              <img
+                width="30rem"
+                className="absolute md:fill-white left-2 top-4 "
+                src={arrow}
+              />
+            </div>
+          </div>
         </div>
         <div className="w-full md:w-1/2 md:px-8 px-0 flex flex-col md:justify-between">
          <div className='absolute top-[10%] md:static flex justify-center md:justify-start w-11/12 '>
@@ -120,8 +135,23 @@ const Featured = () => {
         md:border-t md:border-black md:flex-row 
              justify-center md:py-10 pt-1 pb-4 px-4 relative"
       >
-        <div className="w-full md:w-1/2">
-          <img className="relative" src={img3} />
+        <div className="group w-full md:w-[610px] relative">
+          <img className=" md:pr-4" src={img3} />
+
+          <div class="hidden absolute top-0 left-0 md:flex h-0 w-[595px] items-center justify-center  bg-black opacity-0  group-hover:h-full group-hover:opacity-50 group-hover:ease-out group-hover:transition-opacity group-hover:delay-200 group-hover:duration-300">
+            <h1 class="text-2xl text-white p-5">View product</h1>
+            <div
+              className="flex md:relative absolute top-[30%] md:left-10 
+            md:-top-1 right-10 cursor-pointer"
+            >
+              <img width="50rem" className="md:fill-white" src={smallcircle} />
+              <img
+                width="30rem"
+                className="absolute md:fill-white left-2 top-4 "
+                src={arrow}
+              />
+            </div>
+          </div>
         </div>
         <div className="w-full md:w-1/2 md:px-8 px-0 flex flex-col md:justify-between">
           <div className='absolute top-[10%] md:static flex justify-center md:justify-start w-11/12 '>

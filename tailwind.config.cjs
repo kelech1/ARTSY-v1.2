@@ -8,6 +8,8 @@ module.exports = {
         satoshi: ['satoshi'],
         stix: ['STIX Two Text'],
         rubik: ['Rubik'],
+        bellefair: ['Bellefair'],
+        poppins: ['Poppins']
 
       },
   },
