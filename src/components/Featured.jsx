@@ -57,7 +57,7 @@ const Featured = () => {
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <Icon className=" w-16 h-16 text-[#333333]" icon="ph:arrow-circle-right-thin" />
+              <Icon className=" w-16 h-16 text-[#ffffff] md:text-[#333333]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Featured = () => {
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-              <Icon className=" w-16 h-16 text-[#333333]" icon="ph:arrow-circle-right-thin" />
+              <Icon className=" w-16 h-16 text-[#ffffff] md:text-[#333333]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ const Featured = () => {
               className="flex md:relative absolute top-[30%] md:left-10 
             md:-top-1 right-10 cursor-pointer"
             >
-             <Icon className=" w-16 h-16 text-[#333333]" icon="ph:arrow-circle-right-thin" />
+             <Icon className=" w-16 h-16 text-[#ffffff] md:text-[#333333]" icon="ph:arrow-circle-right-thin" />
             </div>
           </div>
         </div>
