@@ -6,8 +6,7 @@ import user2 from "../assets/user2.png";
 import user3 from "../assets/user3.png";
 import user4 from "../assets/user4.png";
 import user5 from "../assets/user5.png";
-import smallcircle from "../assets/Icons/smallcircle.svg";
-import arrow from "../assets/Icons/arrow.svg";
+
 
 import { Icon } from '@iconify/react';
 
