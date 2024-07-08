@@ -12,7 +12,7 @@ const ShopingDetails = () => {
             <input
               className=" py-3 px-8 outline-none rounded-md bg-gray-200"
               type="text"
-              placeholder="oluwasegunadeniyi064@gmail.com"
+              placeholder="kelechihenry80@gmail.com"
             />
           </div>
           <div className="flex flex-col gap-y-2 w-full md:w-11/12">
@@ -20,7 +20,7 @@ const ShopingDetails = () => {
             <input
               className=" py-3 px-8 outline-none rounded-md bg-gray-200"
               type="text"
-              placeholder="Oluwasegun Adeniyi"
+              placeholder="Kelechi Henry"
             />
           </div>
           <div className="flex flex-col gap-y-2 w-full md:w-11/12">
